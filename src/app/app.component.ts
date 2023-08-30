@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
+  message: string = 'Message From Typscript component file';
+  imgUrl: string = 'https://www.websitecdn.com/website-com/website-builder-articles/adding-elements/images/add_image.webp'
 }
